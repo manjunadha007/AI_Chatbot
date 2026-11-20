@@ -1,0 +1,18 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# secrets: never commit
+.env
+*.env
+!.env.example
+
+# logs and editor/OS files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
